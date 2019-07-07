@@ -1,0 +1,45 @@
+﻿github  start 
+분산형 협업 도구  github
+
+1.저장소 만들기 
+new repository 클릭
+//하나의 프로젝트가 담기는 공간
+//public 을 선택해야 open source 가 된다
+//gitignore : 파일이 올라갈때 어떤걸 올리지 않을지 설정 ,,, 환경설정을 걸러주는 용도로 많이 사용
+//license : 어떤 라이센스를 사용하는지 명시해준다.. 필수는 아님
+
+2. git-csm.com 에서 git 다운로드 
+// 설치는 기본 설정을 따르면 디폴트로 알아서 다운로드 된다. next -> next -> next
+//git 명령어를 사용하면 cmd 창에서 명령어 사용 가능
+
+3. git --version
+//버전 확인
+
+4. git 환경설정
+//git 과 연결하고 로컬 컴퓨터를 저장소로 사용하기 위해 환경설정해준다.
+git config --global user.name (github 계정)
+git config --global user.email (github 이메일)
+
+5. 로컬에 폴더 하나 생성
+// cmd 창에서 cd 이용해서 로컬 폴더로 경로 이동 
+
+6.git clone (https://github.com/jinsusong/깃주소) 
+//clone 다운로드라고 생각하면 됩니다.
+
+7. .git 이랑 동일한 위치에 text 파일 생성 
+
+8. clone한 폴더로 다시 이동 해준다 .
+// C:\Education\Git-Tutorial> git add document.txt
+// git add 를 사용해서 파일을 추가해준다
+
+9.git commit -m "Add Text File [document.txt] " 
+//커밋 메세지를 담아서 커밋을 진행한다.
+//commit을 해서 로컬 컴퓨터에는 적용이 되어있다
+//git 에는 안올라가있음
+
+10.git push 
+//명령어를 사용하면 원격저장소인 git 에 올라간다 .
+//사이트를 새로고침하면 올라감 
+
+
+
